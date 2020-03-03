@@ -20,6 +20,10 @@ function main() {
                     console.log(data)
                 })
         })
+        .catch((err) => {
+            console.log('Error: ')
+            console.log(JSON.stringify(err))
+        })
 
 }
 
