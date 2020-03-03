@@ -1,0 +1,16 @@
+{
+    "name": "sqlite3-nodejs",
+    "version": "1.0.0",
+    "description": "poc of sqlite3 on nodejs",
+    "main": "main.js",
+    "dependencies": {
+        "sqlite3": "^4.1.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node --experimental-modules main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "thiagozs",
+    "license": "ISC"
+}
